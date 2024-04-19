@@ -435,6 +435,7 @@ table td {
     height: 100%;
   }
   .dueña {
+    background-image: url('../images/dueña.png');
     position: fixed;
     right: 0;
     top: 50%;
@@ -445,7 +446,19 @@ table td {
     width: 100px; /* Adjust width as needed */
     height: 100px; /* Adjust height as needed */
   }
-    
+  .dueño {
+    background-image: url('../images/dueño.png');
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: right 0.5s ease; /* Smooth transition effect */
+    z-index: 1000;
+     /* Add your image path here */
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+  }
+  
   .nav-link {
     display: flex;
     color: white;
