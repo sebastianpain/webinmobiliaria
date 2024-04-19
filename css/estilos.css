@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,700;0,800;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 .navbar {
   background-color: rgb(252, 210, 84);
@@ -21,7 +21,6 @@
   font-family: "Secular One", sans-serif;
   text-shadow: 0 0 7px rgb(21, 141, 201);
 }
-
 
 .logonav {
   width: 40px;
@@ -45,9 +44,11 @@
   text-decoration: none;
   color: rgb(25, 115, 200);
 }
+
 .navbar-dark .navbar-nav .nav-link{
   color: rgb(26, 127, 199);
 }
+
 .barra a:hover {
   color: rgb(8, 216, 8);
   text-decoration: underline;
@@ -64,6 +65,7 @@ a {
 .contactos{
   margin: 35px;
 }
+
 .card {
   width: fit-content;
   height: fit-content;
@@ -76,7 +78,6 @@ a {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
 }
 
-/* for all social containers*/
 .socialContainer {
   width: 52px;
   height: 52px;
@@ -86,24 +87,23 @@ a {
   justify-content: center;
   overflow: hidden;
   transition-duration: .3s;
-  
 }
-/* instagram*/
+
 .containerOne:hover {
   background-color: #d62976;
   transition-duration: .3s;
 }
-/* twitter*/
+
 .containerTwo:hover {
   background-color: #00acee;
   transition-duration: .3s;
 }
-/* linkdin*/
+
 .containerThree:hover {
   background-color: #0072b1;
   transition-duration: .3s;
 }
-/* Whatsapp*/
+
 .containerFour:hover {
   background-color: #128C7E;
   transition-duration: .3s;
@@ -169,7 +169,6 @@ a {
   z-index: 10;
   margin-right: 35px;
 }
-
 
 h1 {
   color: rgb(37, 134, 232);
@@ -239,7 +238,6 @@ h5 {
   border: 1px solid rgb(64, 220, 21);
 }
 
-/*index arriba / sobre nosotros abajo y servicios*/
 .caja {
   padding: 2px;
 }
@@ -267,637 +265,30 @@ h5 {
   margin-right: 50px;
   margin-top: 20px;
   margin: 32px;
- 
-  
-  
 }
 
 .caja p {
   color: black;
-  margin-top: 5px;
-  margin: 10px;
+  margin-top: 15px;
 }
 
-table td {
-  width: 120px;
-  height: 120px;
-  color: rgb(64, 220, 21);
-  margin-right: 110px;
-  margin: 10px;
-  margin-bottom: 30px;
+.footer{
+  color: white;
+  background-color: black;
   text-align: center;
-}
-
-.tablecel {
-  margin-left: 25px;
-}
-
-.texto1 {
-  color: white;
-  margin: auto;
-  padding: 1%;
-}
-
-.titulo2 {
-  color: rgb(64, 242, 9);
-  margin: 20px;
-}
-
-.titulo2:hover {
-  color: red;
-  padding: 0%;
-}
-
-.inspira {
-  color: black;
-  margin: 20px;
-}
-
-.inspira strong {
-  color: rgb(64, 220, 21);
-  margin-top: -20px;
-}
-
-
-
-.redes {
-  font-size: 50px;
-  letter-spacing: 10px;
-}
-
-.redes a {
-  color: white;
-  align-content: space-evenly;
-  padding: 10px;
-}
-
-.video {
-  display: flex;
-  width: 100%;
-  height: 500px;
-  margin: 20px;
-  margin-left: 4px;
-  margin-top: 27px;
-}
-
-.fondog {
-  background-image: url(../images/galaxy.jpg);
-  background-size: cover;
-}
-
-.imagesContenedor {
-  height: auto;
-  width: 100%;
-  background-size: cover;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* 4 columnas de 1 fr - EL REPEAT SIEMPRE PEGADO AL () */
-  grid-template-rows: repeat(3, 200px);
-  /* 3 filas , de 200px*/
-  grid-template-areas: "item1 item2 item3 item3" "item1 item4 item5 item6" "item7 item7 item8 item8";
-  grid-gap: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   padding: 20px;
-}
-
-.item {
-  border: 2px solid white;
-  border-radius: 20px;
-}
-
-.item1 {
-  grid-area: item1;
-  background-image: url(../images/maquina.jpg);
-  background-size: contain;
-  background-position: center;
-}
-
-.item2 {
-  grid-area: item2;
-  background-image: url(../images/studio2.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.item3 {
-  grid-area: item3;
-  background-image: url(../images/mic.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.item4 {
-  grid-area: item4;
-  background-image: url(../images/yamaha.jpg);
-  background-size: cover;
-  background-position: center;
-  width: -200px;
-  height: 200px;
-}
-
-.item5 {
-  grid-area: item5;
-  background-image: url(../images/amek.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.item6 {
-  grid-area: item6;
-  background-image: url(../images/studio.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.item7 {
-  grid-area: item7;
-  background-image: url(../images/studio2.jpg);
-  background-size: auto;
-  background-position: center;
-}
-
-.item8 {
-  grid-area: item8;
-  background-image: url(../images/home1.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.container{
-  background-color: rgba(255, 255, 255, 0.907);
-  max-width:100%;
-}
-
-@media only screen and (max-width: 480px) {
-  .navbar {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    width: 100%;
-    height: 100%;
-  }
-  .dueña {
-    background-image: url('../images/dueña.png');
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: right 0.5s ease; /* Smooth transition effect */
-    z-index: 1000;
-     /* Add your image path here */
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-  }
-  .dueño {
-    background-image: url('../images/dueño.png');
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: right 0.5s ease; /* Smooth transition effect */
-    z-index: 1000;
-     /* Add your image path here */
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-  }
-  
-  .nav-link {
-    display: flex;
-    color: white;
-    font-family: "Secular One", sans-serif;
-    text-shadow: 0 0 7px rgb(64, 220, 21);
-  }
-  .logonav {
-    width: 40px;
-    height: 40px;
-    margin: 40px;
-    margin-left: -4px;
-  }
-  main {
-    height: 100vh;
-    width:100%;
-    background-image: url(./images/.png);
-    background-position: left;
-    background-size:contain;
-  }
-  
-  .foto1 {
-    display: flex;
-    width: auto;
-    background-image: url(../images/foto1.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .foto2 {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-image: url(../images/foto2.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .foto3 {
-    display: flex;
-    width: auto;
-    background-image: url(../images/foto3.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .foto4 {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-image: url(../images/foto4.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .form {
-    color: rgb(64, 220, 21);
-    height: 100%;
-    width: auto;
-    margin: 20px;
-    margin-right: 700px;
-    margin-top: -10px;
-  }
-  .form input {
-    color: white;
-    background-color: black;
-  }
-  .form label {
-    text-shadow: 0 0 5px rgb(26, 25, 25);
-  }
-  .tablecel {
-    margin-right: 65px;
-  }
-  .mapa {
-    margin-left: 150px;
-  }
-  .video {
-    display: flex;
-    width: 100%;
-    /* height: auto; */
-    margin: 20px;
-    margin-left: 4px;
-    margin-top: 27px;
-  }
-  h1 {
-    color: rgb(64, 220, 21);
-  }
-  .call {
-    display: inline;
-    color: rgb(21, 104, 220);
-    font-family: "Anton", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    float: left;
-    background-color: rgba(2, 2, 2, 0.5098039216);
-    padding: 20px;
-    text-shadow: 0 0 5px white;
-    border: 2px solid rgb(64, 220, 21);
-    margin: 18px;
-    background-color: #020202;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .call p {
-    font-size: 20px;
-    margin: 5px;
-    margin-bottom: 70px;
-    color: white;
-  }
-  .call a {
-    background-color: rgb(64, 220, 21);
-    width: 10px;
-    color: white;
-    margin: 10px;
-    padding: 5px 20px;
-  }
-  .call a:hover {
-    background-color: #222;
-    text-shadow: 2px solid green;
-    border: 2px solid green;
-  }
-  .logonav {
-    margin-left: -20px;
-  }
-  .subir {
-    height: 40px;
-    width: 40px;
-    padding: 2%;
-    background-color: rgba(64, 220, 21, 0.516);
-    border: 5px solid green;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    color: rgb(64, 220, 21);
-    text-align: center;
-    font-size: 15px;
-    line-height: 15px;
-    border-radius: 100%;
-    box-shadow: 0 0 15px rgb(64, 220, 21);
-    z-index: 10;
-    margin-right: 8px;
-  }
-  .fon3 {
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/polvo2.jpg);
-  }
-  .imagesnleft {
-    background-size: cover;
-  }
-  .imagesContenedor {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* 4 columnas de 1 fr - EL REPEAT SIEMPRE PEGADO AL () */
-    grid-template-rows: 1fr;
-    grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8";
-    margin-left: 20px;
-    grid-gap: 4px;
-  }
-  .item {
-    border: solid rgba(20, 205, 45, 0.499);
-    margin: 2px;
-    -webkit-animation-name: efecto;
-            animation-name: efecto;
-    -webkit-animation-iteration-count: 2;
-            animation-iteration-count: 2;
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
-  }
-  
-  .mapa {
-    margin-left: -5px;
-  }
-  
-  
-
-  }
-@media only screen and (max-width: 320px) {
-  .container{
-    background-color: rgba(242, 242, 79, 0.907);
-  }
-  
-  .navbar {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    width: 100%;
-    height: 100%;
-  }
-  .navbar-toggler-icon{
-    color: #020202;
-  }
-  .nav-link {
-    display: flex;
-    color: white;
-    font-family: "Secular One", sans-serif;
-    text-shadow: 0 0 7px rgb(64, 220, 21);
-  }
-  
-  .logonav {
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-    margin-left: -4px;
-  }
- 
-  .foto1 {
-    display: flex;
-    width: auto;
-    background-image: url(../images/foto1.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .foto2 {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-image: url(../images/foto2.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .foto3 {
-    display: flex;
-    width: auto;
-    background-image: url(../images/foto3.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .foto4 {
-    display: flex;
-    width: 100%;
-    height: 500px;
-    background-image: url(../images/foto4.jpg);
-    background-size: cover;
-    border: 1px solid rgb(64, 220, 21);
-  }
-  .form {
-    color: rgb(64, 220, 21);
-    height: 100%;
-    width: auto;
-    margin: 20px;
-    margin-right: 700px;
-    margin-top: -10px;
-  }
-  .form input {
-    color: white;
-    background-color: black;
-  }
-  .form label {
-    text-shadow: 0 0 5px rgb(26, 25, 25);
-  }
-  .tablecel {
-    margin-right: 65px;
-  }
-  .mapa {
-    margin-left: 150px;
-  }
-  .video {
-    display: flex;
-    width: 100%;
-    /* height: auto; */
-    margin: 20px;
-    margin-left: 4px;
-    margin-top: 27px;
-  }
-  h1 {
-    color: rgb(64, 220, 21);
-  }
-  .call {
-    display: inline;
-    color: rgb(64, 220, 21);
-    font-family: "Anton", sans-serif;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    float: left;
-    background-color: rgba(2, 2, 2, 0.5098039216);
-    padding: 20px;
-    text-shadow: 0 0 5px white;
-    border: 2px solid rgb(64, 220, 21);
-    margin: 18px;
-    background-color: #020202;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23310a6f' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  .call p {
-    font-size: 20px;
-    margin: 5px;
-    margin-bottom: 70px;
-    color: white;
-  }
-  .call a {
-    background-color: rgb(64, 220, 21);
-    width: 10px;
-    color: white;
-    margin: 10px;
-    padding: 5px 20px;
-  }
-  .call a:hover {
-    background-color: #222;
-    text-shadow: 2px solid green;
-    border: 2px solid green;
-  }
-  .logonav {
-    margin-left: -4px;
-  }
-  .subir {
-    height: 40px;
-    width: 40px;
-    padding: 5px;
-    background-color: rgba(64, 220, 21, 0.516);
-    border: 5px solid green;
-    position: fixed;
-    right: 20px;
-    bottom: 40px;
-    color: rgb(64, 220, 21);
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 80px;
-    border-radius: 100%;
-    box-shadow: 0 0 15px rgb(64, 220, 21);
-    z-index: 10;
-    margin-right: 15px;
-  }
-  .fon3 {
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/polvo2.jpg);
-  }
-  .imagesnleft {
-    background-size: cover;
-  }
-  .imagesContenedor {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    /* 4 columnas de 1 fr - EL REPEAT SIEMPRE PEGADO AL () */
-    grid-template-rows: 1fr;
-    grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6" "item7" "item8";
-    margin-left: 20px;
-    grid-gap: 4px;
-  }
-  .item {
-    border: solid rgba(20, 205, 45, 0.499);
-    margin: 2px;
-    -webkit-animation-name: efecto;
-            animation-name: efecto;
-    -webkit-animation-iteration-count: 2;
-            animation-iteration-count: 2;
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
-  }
-  .item1 {
-    height: 250px;
-    width: 240px;
-    grid-area: item1;
-    background-image: url(../images/maquina.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item2 {
-    height: 250px;
-    width: 240px;
-    grid-area: item2;
-    background-image: url(../images/studio2.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item3 {
-    height: 250px;
-    width: 240px;
-    grid-area: item3;
-    background-image: url(../images/mic.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item4 {
-    height: 250px;
-    width: 240px;
-    grid-area: item4;
-    background-image: url(../images/yamaha.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item5 {
-    height: 250px;
-    width: 240px;
-    grid-area: item5;
-    background-image: url(../images/amek.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item6 {
-    height: 250px;
-    width: 240px;
-    grid-area: item6;
-    background-image: url(../images/studio.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item7 {
-    height: 250px;
-    width: 240px;
-    grid-area: item7;
-    background-image: url(../images/studio2.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .item8 {
-    height: 250px;
-    width: 240px;
-    grid-area: item8;
-    background-image: url(../images/guitars.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .mapa {
-    margin-left: -5px;
-  }
-  
-  .icon-under-carousel {
-    
-    bottom: 10px; /* Ajusta esta propiedad según la posición deseada */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 10px; /* Ajusta el tamaño según sea necesario */
-    height: 10px;
-    z-index: 500; /* Ajusta esto según sea necesario para que esté por encima del carrusel */
-}
-.dueña {
   position: fixed;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: right 0.5s ease; /* Smooth transition effect */
-  z-index: 1000;
-   /* Add your image path here */
-  width: 100px; /* Adjust width as needed */
-  height: 100px; /* Adjust height as needed */
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
 }
 
-  
+/* Adjustments for responsiveness */
+@media only screen and (max-width: 768px) {
+  .footer {
+    font-size: 18px; /* Adjust font size for smaller screens */
   }
-/*# sourceMappingURL=estilos.css.map */
+}
