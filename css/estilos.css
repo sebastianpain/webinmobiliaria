@@ -61,7 +61,12 @@ p {
 a {
   color: rgb(68, 170, 243);
 }
-
+.dueña {
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+  display: block; /* Asegura que la imagen se muestre como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
 .contactos{
   margin: 35px;
 }
@@ -238,4 +243,10 @@ h5 {
   bottom: 0;
   width: 100%;
   z-index: 1000; /* Ensure it's above other content */
+}
+@media only screen and (max-width: 767px) {
+  .dueña {
+    max-width: 80%; /* Reduce el ancho máximo en dispositivos móviles para evitar que ocupe demasiado espacio */
+    margin-bottom: 20px; /* Agrega un espacio inferior para separar la imagen de otros elementos */
+  }
 }
