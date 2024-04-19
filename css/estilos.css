@@ -285,10 +285,3 @@ h5 {
   width: 100%;
   z-index: 1000; /* Ensure it's above other content */
 }
-
-/* Adjustments for responsiveness */
-@media only screen and (max-width: 768px) {
-  .footer {
-    font-size: 18px; /* Adjust font size for smaller screens */
-  }
-}
