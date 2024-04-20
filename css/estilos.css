@@ -244,9 +244,40 @@ h5 {
   width: 100%;
   z-index: 1000; /* Ensure it's above other content */
 }
+.icon-under-carousel{
+  position:relative;
+
+}
+.h4text{
+  text-size-adjust: auto;
+  margin: 20px;
+}
 @media only screen and (max-width: 767px) {
-  .dueña {
-    max-width: 80%; /* Reduce el ancho máximo en dispositivos móviles para evitar que ocupe demasiado espacio */
-    margin-bottom: 20px; /* Agrega un espacio inferior para separar la imagen de otros elementos */
+  .h4text{
+    text-size-adjust: auto;
+    margin: 20px;
   }
+  .dueña {
+    
+    max-width: 80%; /* Reduce el ancho máximo en dispositivos móviles para evitar que ocupe demasiado espacio */
+    margin-bottom: 0px; /* Agrega un espacio inferior para separar la imagen de otros elementos */
+  }
+}
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 0 300px; /* Esto asegura que las tarjetas tengan el mismo ancho */
+  margin: 10px;
+}
+
+.card-height {
+  height: 100%; /* Todas las tarjetas tendrán la misma altura */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
 }
