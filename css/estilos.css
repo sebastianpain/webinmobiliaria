@@ -67,7 +67,7 @@ a {
 }
 
 .dueña {
-  background-image: url('./images/dueña.png');
+  
   width: 340px;
   height: 500px;
   display: block;
@@ -264,7 +264,7 @@ h5 {
 
 @media only screen and (max-width: 767px) {
   .dueña {
-    background-image: url('./images/dueña.png');
+    
     width: 350px;
     height: 450px;
     margin-bottom: 0px;
