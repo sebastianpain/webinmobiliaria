@@ -67,8 +67,8 @@ a {
 }
 
 .dueña {
-  max-width: 100%;
-  height: auto;
+  width: 340px;
+  height: 500px;
   display: block;
   margin: 20px auto 0;
 }
@@ -263,7 +263,8 @@ h5 {
 
 @media only screen and (max-width: 767px) {
   .dueña {
-    max-width: 80%;
+    width: 350px;
+    height: 450px;
     margin-bottom: 0px;
   }
 
