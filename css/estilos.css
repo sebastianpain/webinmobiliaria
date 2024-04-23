@@ -5,7 +5,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+body {
+  margin-right: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -45,7 +49,7 @@
   color: rgb(25, 115, 200);
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: rgb(26, 127, 199);
 }
 
@@ -61,13 +65,15 @@ p {
 a {
   color: rgb(68, 170, 243);
 }
+
 .dueña {
-  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-  height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
-  display: block; /* Asegura que la imagen se muestre como un bloque */
-  margin: 0 auto; /* Centra la imagen horizontalmente */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto 0;
 }
-.contactos{
+
+.contactos {
   margin: 35px;
 }
 
@@ -143,7 +149,6 @@ a {
   }
 }
 
-
 .subir {
   height: 40px;
   width: 40px;
@@ -195,8 +200,6 @@ h5 {
   border: 2px solid green;
 }
 
-
-
 .caja {
   padding: 2px;
 }
@@ -231,7 +234,7 @@ h5 {
   margin-top: 15px;
 }
 
-.footer{
+.footer {
   color: white;
   background-color: black;
   text-align: center;
@@ -242,42 +245,40 @@ h5 {
   position: fixed;
   bottom: 0;
   width: 100%;
-  z-index: 1000; /* Ensure it's above other content */
+  z-index: 1000;
 }
-.icon-under-carousel{
-  position:relative;
 
+.icon-under-carousel {
+  position: sticky;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+  width: 200px;
 }
-.h4text{
+
+.h4text {
   text-size-adjust: auto;
   margin: 20px;
 }
+
 @media only screen and (max-width: 767px) {
-  .h4text{
-    text-size-adjust: auto;
-    margin: 20px;
-  }
   .dueña {
-    
-    max-width: 80%; /* Reduce el ancho máximo en dispositivos móviles para evitar que ocupe demasiado espacio */
-    margin-bottom: 0px; /* Agrega un espacio inferior para separar la imagen de otros elementos */
+    max-width: 80%;
+    margin-bottom: 0px;
   }
-}
-.card-group {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.card {
-  flex: 1 0 300px; /* Esto asegura que las tarjetas tengan el mismo ancho */
-  margin: 10px;
-}
+  .card {
+    flex: 1 0 calc(50% - 20px);
+  }
 
-.card-height {
-  height: 100%; /* Todas las tarjetas tendrán la misma altura */
-}
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 
-.card img {
-  max-width: 100%;
-  height: auto;
+  .form {
+    margin-right: 20px; /* Adjust as needed */
+  }
 }
